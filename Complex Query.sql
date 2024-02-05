@@ -28,15 +28,3 @@ GROUP BY EmployeeID
 
 GO
 
-SELECT *
-FROM tblEmployeePosition
-SELECT *
-FROM tblBranch
-SELECT *
-FROM tblOrders
-SELECT *
-FROM tblOrders
-
---when we have two variables datediff (when the dates varies for everyone)
---DateADD, a fixed date
---    ex. 7 years ago from today
