@@ -1,13 +1,3 @@
-BACKUP DATABASE INFO_330_Proj_15 TO DISK = 'C:\SQL\INFO_330_Proj_15.BAK' WITH DIFFERENTIAL
-
-Meeting Goal:
-- Check In on Progress
-- Populated each transactional table (tables with FKs) with at least 5 rows each
-- Completed complex queries 
-- Completed computed columns  
-- Completed Business Rules 
-
-
 CREATE TABLE tblDiscount (
    DiscountID INTEGER IDENTITY(1, 1) primary key,
    DiscountName varchar(60) NOT NULL,
